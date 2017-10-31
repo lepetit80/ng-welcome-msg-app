@@ -24,9 +24,6 @@ import { LangSelectorBtnPipe } from './lang-selector/lang-selector-btn.pipe' ;
     BrowserAnimationsModule,
     MatToolbarModule, MatSnackBarModule, MatCardModule, MatInputModule, MatRadioModule, MatButtonModule
   ],
-  // exports: [
-  //   MatToolbarModule, MatSnackBar, MatCardModule, MatInputModule, MatRadioModule, MatButtonModule
-  // ],
   providers: [I18nSupportService, {provide: COMPOSITION_BUFFER_MODE, useValue : false}],
   bootstrap: [AppComponent]
 })
